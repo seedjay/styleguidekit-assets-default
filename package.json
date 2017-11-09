@@ -1,10 +1,10 @@
 {
-  "name": "styleguidekit-assets-default",
+  "name": "wood-styleguidekit-assets",
   "version": "3.5.2",
   "description": "The default set of front-end assets for Pattern Lab.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pattern-lab/styleguidekit-assets-default.git"
+    "url": "git://github.com/seedjay/styleguidekit-assets-default.git"
   },
   "author": "Dave Olsen",
   "contributors": [
