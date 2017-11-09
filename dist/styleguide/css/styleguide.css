@@ -478,11 +478,11 @@
 * We're using Twitter Typeahead to autocomplete pattern
 * searches. https://twitter.github.io/typeahead.js/
 */
-.twitter-typeahead {
+#sg-nav-container .twitter-typeahead {
   width: 100%;
 }
 
-.typeahead {
+#sg-nav-container .typeahead {
   border: 0;
   background: #222;
   color: #808080;
@@ -491,27 +491,27 @@
   padding: 0.8em;
   text-transform: lowercase;
 }
-.typeahead:focus {
+#sg-nav-container .typeahead:focus {
   background: #808080;
   color: #fff;
 }
 
-.tt-input {
+#sg-nav-container .tt-input {
   background: #808080;
   color: #fff;
   text-transform: uppercase;
 }
-.tt-input:focus {
+#sg-nav-container .tt-input:focus {
   text-transform: lowercase;
 }
 
-.tt-hint {
+#sg-nav-container .tt-hint {
   text-transform: lowercase;
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 6px;
 }
 
-.tt-dropdown-menu {
+#sg-nav-container .tt-dropdown-menu {
   text-transform: lowercase;
   background-color: #808080;
   width: 100%;
@@ -519,18 +519,18 @@
   border-bottom-left-radius: 6px;
 }
 
-.tt-suggestion {
+#sg-nav-container .tt-suggestion {
   color: #eee;
   font-size: 75%;
   padding: 0.8em;
 }
 
-.tt-suggestion.tt-cursor {
+#sg-nav-container .tt-suggestion.tt-cursor {
   color: #fff;
   background: rgba(255, 255, 255, 0.25);
 }
 
-.tt-suggestion p {
+#sg-nav-container .tt-suggestion p {
   margin: 0;
 }
 
@@ -869,16 +869,13 @@
 @media all and (min-width: 42em) {
   .sg-pattern-extra-inner {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
     width: 100%;
     -webkit-box-flex: 1;
-    -webkit-flex: 1 1 auto;
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
   }
@@ -931,18 +928,15 @@
 */
 .sg-pattern-extra-code {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
   font-size: 90%;
   padding: 0.5rem;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   /**
@@ -956,7 +950,6 @@
   margin: 0 !important;
   line-height: 1 !important;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   border-radius: 0 6px 6px 6px !important;
@@ -1035,17 +1028,14 @@
 \*------------------------------------*/
 .sg-tabs {
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   width: 100%;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
   font: "HelveticaNeue", "Helvetica", "Arial", sans-serif !important;
@@ -1098,16 +1088,13 @@
 
 .sg-tabs-content {
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
   border: 1px solid #ccc;
@@ -1118,16 +1105,13 @@
 .sg-tabs-panel {
   display: none;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   position: relative;
@@ -1160,12 +1144,10 @@
   width: 100%;
   height: 50%;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
   /**
@@ -1211,7 +1193,6 @@
 }
 .sg-modal .sg-pattern-extra {
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   max-height: none;
@@ -1272,16 +1253,13 @@
 */
 .sg-modal-content {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
   overflow-y: auto;
@@ -1293,16 +1271,13 @@
 */
 .sg-modal-content-inner {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
 }
@@ -1380,15 +1355,12 @@
   counter-increment: the-count;
   font-size: 85%;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
   width: 14px;

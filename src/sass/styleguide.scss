@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*------------------------------------*\
 #PATTERN LAB STYLES
 \*------------------------------------*/
@@ -592,11 +593,11 @@ $sg-border-radius-med : 6px;
 * searches. https://twitter.github.io/typeahead.js/
 */
 
-.twitter-typeahead {
+#sg-nav-container .twitter-typeahead {
     width: 100%;
 }
 
-.typeahead {
+#sg-nav-container .typeahead {
     border: 0;
     background: $sg-gray-dark;
     color: $sg-gray;
@@ -611,7 +612,7 @@ $sg-border-radius-med : 6px;
     }
 }
 
-.tt-input {
+#sg-nav-container .tt-input {
     background: $sg-gray;
     color: $sg-white;
     text-transform: uppercase;
@@ -621,13 +622,13 @@ $sg-border-radius-med : 6px;
     }
 }
 
-.tt-hint {
+#sg-nav-container .tt-hint {
     text-transform: lowercase;
     border-bottom-right-radius: $sg-border-radius-med;
     border-bottom-left-radius: $sg-border-radius-med;
 }
 
-.tt-dropdown-menu {
+#sg-nav-container .tt-dropdown-menu {
     text-transform: lowercase;
     background-color: $sg-gray;
     width: 100%;
@@ -635,21 +636,20 @@ $sg-border-radius-med : 6px;
     border-bottom-left-radius: $sg-border-radius-med;
 }
 
-.tt-suggestion {
+#sg-nav-container .tt-suggestion {
     color: $sg-gray-light;
     font-size: 75%;
     padding: 0.8em;
 }
 
-.tt-suggestion.tt-cursor {
+#sg-nav-container .tt-suggestion.tt-cursor {
     color: $sg-white;
     background: $sg-tint-2;
 }
 
-.tt-suggestion p {
+#sg-nav-container .tt-suggestion p {
     margin: 0;
 }
-
 
 
 
